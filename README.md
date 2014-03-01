@@ -17,4 +17,4 @@ Compilation of the example
 
 Usage
 =====
-Just drag the AIPNGController.h and AIPNGController.m files in to your XCode-Project or alike, and import the header. Initiate the object and context according to the example.
+Just drag the AIPNGController.h and AIPNGController.m files in to your XCode-Project or alike, and import the header. Initiate the controller and context according to the example.
