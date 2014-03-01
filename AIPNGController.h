@@ -17,7 +17,7 @@
  @updated 01.03.14
  @discussion This controller can easily be extended to provide saving to other formats as well. See: https://developer.apple.com/library/mac/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/Introduction/Introduction.html#//apple_ref/doc/uid/TP30001066
  */
-@interface FTLOutputController : NSObject {
+@interface AIPNGController : NSObject {
 	int viewHeight;
 	int viewWidth;
 	
@@ -45,14 +45,14 @@
  */
 - (void) drawLineFrom:(CGPoint)start to:(CGPoint)end;
 
+# pragma mark - saving the image to png
+
 /*!
  Save the image to a png at given path.
  
- @param path of the png
- @param andName:NSString* name of the png
+ @param path of the png including the filename
  */
-# pragma mark - saving the image to png
 
-- (void) saveImageToPNGWithPath:(NSString *)path andName:(NSString*)name;
+- (void) saveImageToPNGWithPath:(NSString *)path;
 
 @end
