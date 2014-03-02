@@ -30,8 +30,6 @@
  
  @param width of the context
  @param height of the context
- 
- @discussion the context represents the `canvas` to draw on
  */
 - (void) createBitmapContextWithWidth:(int)width andHeight:(int)height;
 
